@@ -32,5 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 # Ignore application properties containing sensitive data
-src/main/resources/application.properties
+# src/main/resources/application.properties
 
