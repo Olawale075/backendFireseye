@@ -15,7 +15,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("api/v1/FireAlarm")
+@RequestMapping("api/v1/FireEyes")
 @AllArgsConstructor
 @CrossOrigin("*")
 public class SmsReceiverController {
@@ -60,9 +60,9 @@ public class SmsReceiverController {
     public String sendMessageToAllFofFireDetector() {
         String message = "Dear Subscriber,\n" + //
                         "\n" + //
-                        "A GAS hazardhazard has been detected at [Your Funtain university/Eti-Osa]. "+"\n"+
+                        "A GAS hazardhazard has been detected Adegunwa Kitchen. "+"\n"+
                         "This is an emergency situation, and your immediate action is required"+"\n" 
-                        +"Stay alert and take care, \"Location: [FOUNTAIN UNIVESITY/ ETI-OSA]\"+\"\\n" + //
+                        +"Stay alert and take care, \"Location: [FOUNTAIN UNIVESITY/Adegunwa Kitchen]\"+\"\\n" + //
                                                         " \"+\r\n" + //
                    "        \"Detection Time: [\"+ formattedDateTime +\"]\";\n" + //
                          "[Your Organization/ROBOTIC GROPE]";
@@ -72,9 +72,9 @@ public class SmsReceiverController {
     public String sendMessageToAllForGasDectector() {
         String message = "Dear Subscriber,\n" + //
                         "\n" + //
-                        "A GAS hazard has been detected at [Your Funtain university/Eti-Osa]. "+"\n"+
+                        "A GAS hazard has been detected at Adegunwa Kitchen. "+"\n"+
                         "This is an emergency situation, and your immediate action is required"+"\n" 
-                        +"Stay alert and take care, \"Location: [FOUNTAIN UNIVESITY/ ETI-OSA]\"+\"\\n" + //
+                        +"Stay alert and take care, \"Location: [FOUNTAIN UNIVESITY/Adegunwa Kitchen]\"+\"\\n" + //
                                                         " \"+\r\n" + //
                   "        \"Detection Time: [\"+ formattedDateTime +\"]\"\n" + //
                         
